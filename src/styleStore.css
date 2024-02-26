@@ -1,0 +1,133 @@
+.App-store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+ /*justify-content: center;*/
+ margin-left: 120px;
+}
+
+.product {
+  flex: 0 1 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
+  position: relative;
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.product span {
+  font-size: 15px;
+  color: #666;
+}
+
+.Product-Image {
+  width: 475px;
+  height: 325px;
+  object-fit: cover;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Cart-Image-Button {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+
+.product button:hover {
+  background-color: #31ffc1;
+  color: #000000;
+}
+
+.inside {
+  font-size: 85%;
+  z-index: 9;
+  background: #7c2943;
+  width: 45px;
+  height: 40px;
+  position: absolute;
+  top: auto;
+  right: 15px;
+  border-radius: 0px 0px 0px 200px;
+  transition: all 0.5s, border-radius 2s, top 1s;
+  overflow: hidden;
+}
+
+
+.inside .icon {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 3px;
+  right: 4px;
+}
+
+.inside img {
+  width: 100%;
+  height: auto;
+}
+
+.inside:hover {
+  width: 100%;
+  right: 0;
+  top: 0;
+  border-radius: 0;
+  height: 80%;
+}
+
+.inside:hover .icon {
+  opacity: 0;
+  right: 15px;
+  top: 15px;
+}
+
+.inside:hover .contents {
+  opacity: 1;
+  transform: scale(1);
+  transform: translateY(0);
+}
+
+.inside .contents {
+  padding: 5%;
+  opacity: 0;
+  transform: scale(0.5);
+  transform: translateY(-200%);
+  transition: opacity 0.2s, transform 0.8s;
+  height: 100%;
+  /* Set a height for the contents */
+  overflow-y: auto;
+  /* Allow vertical scrolling */
+}
+
+.inside .contents::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Vincent van Gogh, The Starry Night, 1889",
+    "description": "Vincent Van Gogh’s most popular painting, The Starry Night was created by Van Gogh at the asylum in Saint-Rémy, where he’d committed himself in 1889. Indeed, The Starry Night seems to reflect his turbulent state of mind at the time, as the night sky comes alive with swirls and orbs of frenetically applied brush marks springing from the yin and yang of his personal demons and awe of nature.",
+    "price": 1000000,
+    "img": "The Starry Night"
+  },
+  {
+    "id": 2,
+    "title": "Gustav Klimt, The Kiss, 1907–1908",
+    "description": "Opulently gilded and extravagantly patterned, The Kiss, Gustav Klimt’s fin-de-siècle portrayal of intimacy, is a mix of Symbolism and Vienna Jugendstil, the Austrian variant of Art Nouveau. Klimt depicts his subjects as mythical figures made modern by luxuriant surfaces of up-to-the moment graphic motifs. The work is a highpoint of the artist’s Golden Phase between 1899 and 1910 when he often used gold leaf—a technique inspired by a 1903 trip to the Basilica di San Vitale in Ravenna, Italy, where he saw the church’s famed Byzantine mosaics.",
+    "price": 1200,
+    "img": "The Kiss"
+  },
+  {
+    "id": 3,
+    "title": "Sandro Botticelli, The Birth of Venus, 1484–1486",
+    "description": "Botticelli’s The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It’s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano. Venus is seen being blown ashore on a giant clamshell by the wind gods Zephyrus and Aura as the personification of spring awaits on land with a cloak. Unsurprisingly, Venus attracted the ire of Savonarola, the Dominican monk who led a fundamentalist crackdown on the secular tastes of the Florentines. His campaign included the infamous “Bonfire of the Vanities” of 1497, in which “profane” objects—cosmetics, artworks, books—were burned on a pyre. The Birth of Venus was itself scheduled for incineration, but somehow escaped destruction. Botticelli, though, was so freaked out by the incident that he gave up painting for a while.",
+    "price": 1300,
+    "img": "The Birth of Venus"
+  },
+  {
+    "id": 4,
+    "title": "James Abbott McNeill Whistler, Arrangement in Grey and Black No. 1, 1871",
+    "description": "Whistler’s Mother, or Arrangement in Grey and Black No. 1, as it’s actually titled, speaks to the artist’s ambition to pursue art for art’s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form. Whistler’s mother Anna is pictured as one of several elements locked into an arrangement of right angles. Her severe expression fits in with the rigidity of the composition, and it’s somewhat ironic to note that despite Whistler’s formalist intentions, the painting became a symbol of motherhood.",
+    "price": 6000,
+    "img": "Arrangement in Grey and Black"
+  },
+  {
+    "id": 5,
+    "title": "Jan van Eyck, The Arnolfini Portrait, 1434",
+    "description": "One of the most significant works produced during the Northern Renaissance, this composition is believed to be one of the first paintings executed in oils. A full-length double portrait, it reputedly portrays an Italian merchant and a woman who may or may not be his bride. In 1934, the celebrated art historian Erwin Panofsky proposed that the painting is actually a wedding contract. What can be reliably said is that the piece is one of the first depictions of an interior using orthogonal perspective to create a sense of space that seems contiguous with the viewer’s own; it feels like a painting you could step into.",
+    "price": 1900,
+    "img": "The Arnolfini Portrait"
+  },
+  {
+    "id": 6,
+    "title": "Hieronymus Bosch, The Garden of Earthly Delights, 1503–1515",
+    "description": "This fantastical triptych is generally considered a distant forerunner to Surrealism. In truth, it’s the expression of a late medieval artist who believed that God and the Devil, Heaven and Hell were real. Of the three scenes depicted, the left panel shows Christ presenting Eve to Adam, while the right one features the depredations of Hell; less clear is whether the center panel depicts Heaven. In Bosch’s perfervid vision of Hell, an enormous set of ears wielding a phallic knife attacks the damned, while a bird-beaked bug king with a chamber pot for a crown sits on its throne, devouring the doomed before promptly defecating them out again. This riot of symbolism has been largely impervious to interpretation, which may account for its widespread appeal.",
+    "price": 1500,
+    "img": "The Garden of Earthly Delights"
+  },
+  {
+    "id": 7,
+    "title": "Georges Seurat, A Sunday Afternoon on the Island of La Grande Jatte, 1884–1886",
+    "description": "Georges Seurat’s masterpiece, evoking the Paris of La Belle Epoque, is actually depicting a working-class suburban scene well outside the city’s center. Seurat often made this milieu his subject, which differed from the bourgeois portrayals of his Impressionist contemporaries. Seurat abjured the capture-the-moment approach of Manet, Monet and Degas, going instead for the sense of timeless permanence found in Greek sculpture. And that is exactly what you get in this frieze-like processional of figures whose stillness is in keeping with Seurat’s aim of creating a classical landscape in modern form.",
+    "price": 3000,
+    "img": "A Sunday Afternoon on the Island of La Grande Jatte"
+  },
+  {
+    "id": 8,
+    "title": "Pieter Bruegel the Elder, The Harvesters, 1565",
+    "description": "Bruegel’s fanfare for the common man is considered one of the defining works of Western art. This composition was one of six created on the theme of the seasons. The time is probably early September. A group of peasants on the left cut and bundle ripened wheat, while the on the right, another group takes their midday meal. One figure is sacked out under a tree with his pants unbuttoned. This attention to detail continues throughout the painting as a procession of ever-granular observations receding into space. It was extraordinary for a time when landscapes served mostly as backdrops for religious paintings.",
+    "price": 2000,
+    "img": "The Harvesters"
+  }
+]
